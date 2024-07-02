@@ -14,59 +14,280 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <body>
-            <nav class="navbar navbar-expand-lg gradient-navbar">
-                <div class="container-fluid fw-bold">
-                    <img src="icon.ico" alt="Bootstrap" width="32" height="32"  >
-                    <a class="navbar-brand mx-4" href="#">Next Gen</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active zoom neon-text" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link zoom neon-text" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle zoom neon-text" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item zoom neon-text" href="#">Action</a></li>
-                                    <li><a class="dropdown-item zoom neon-text" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item zoom neon-text" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link zoom neon-text">Contact Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link zoom neon-text">About US</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success  neon-text" style="background-color:lightgreen;" type="submit">Search</button>
-                        </form>
+
+    <body>
+        <nav class="navbar navbar-expand-lg gradient-navbar">
+            <div class="container-fluid fw-bold">
+                <img src="icon.ico" alt="Bootstrap" width="32" height="32">
+                <a class="navbar-brand mx-4 neon-shadow3" href="#">Next Gen</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link zoom neon-text active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link zoom neon-text" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle zoom neon-text" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item zoom neon-text" href="#">Action</a></li>
+                                <li><a class="dropdown-item zoom neon-text" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item zoom neon-text" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link zoom neon-text">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link zoom neon-text">About US</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success  neon-text" style="background-color:lightgreen;"
+                            type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!--carousel-->
+        <div id="carouselExampleCaptions" class="carousel slide carousel carousel-fade  my-2" >
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="1.jpg" class="d-block w-100" alt="no"><!--1 IMAGE-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Welcome to Technology knowledge</h2>
+                        <p>Technology,News and Trends</p>
+                        <button class="btn btn-primary neon-shadow4">Technology</button>
+                        <button class="btn btn-danger neon-shadow4">Development</button>
+                        <button class="btn btn-success neon-shadow4">Tech & Fun</button>
                     </div>
                 </div>
-            </nav>
-             <footer class="container">
-                <p class="float-end"><a href="#">Back to top</a></p>
-                <p>© 2024 Nextgen tech By Harsh Gupta, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-            </footer>
+                <div class="carousel-item">
+                    <img src="2.jpg" class="d-block w-100" alt="no"><!--1 IMAGE-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Best Coding Blog</h2>
+                        <p>Technology,News and Trends</p>
+                        <button class="btn btn-primary">Technology</button>
+                        <button class="btn btn-danger">Development</button>
+                        <button class="btn btn-success">Tech & Fun</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="3.jpg" class="d-block w-100" alt="no"><!--1 IMAGE-->
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Award Winning blog</h2>
+                        <p>Technology,News and Trends</p>
+                        <button class="btn btn-primary">Technology</button>
+                        <button class="btn btn-danger">Development</button>
+                        <button class="btn btn-success">Tech & Fun</button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--CARD-->
+        <!--Card1,2-->
+        <div class="container my-4 text-white">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-white-emphasis neon-shadow3">Tech Conferences</strong>
+                            <h3 class="mb-0">Global Coding Summit 2024</h3>
+                            <div class="mb-1 text-body-secondary">2024</div>
+                            <p class="card-text mb-auto">Discover the latest trends and breakthroughs in coding at our
+                                annual global
+                                summit.
+                            </p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="11.png" class="bd-placeholder-img" width="200" height="250">
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!--Card2-->
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-white-emphasis neon-shadow3">Coding Workshops</strong>
+                            <h3 class="mb-0">Learn Advanced Coding</h3>
+                            <div class="mb-1 text-body-secondary">2024</div>
+                            <p class="mb-auto">Enhance your coding skills with our in-depth workshops led by industry
+                                experts.
+                            </p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="12.png" class="bd-placeholder-img" width="200" height="250">
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Card3,4-->
+        <div class="container my-4 text-white">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-danger-emphasis neon-shadow3">Tech Innovations</strong>
+                            <h3 class="mb-0">Future of Coding</h3>
+                            <div class="mb-1 text-body-secondary">2024</div>
+                            <p class="card-text mb-auto">Explore cutting-edge coding techniques and technologies that
+                                are shaping the
+                                future of software development.
+                            </p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="13.png" class="bd-placeholder-img" width="200" height="250">
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!--Card4-->
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-danger-emphasis neon-shadow3">Developer Insights</strong>
+                            <h3 class="mb-0">Master Modern Coding Practices
+                            </h3>
+                            <div class="mb-1 text-body-secondary">2024</div>
+                            <p class="mb-auto">Join our sessions to master modern coding practices and stay ahead in the
+                                tech industry.
+                            </p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="10.png" class="bd-placeholder-img" width="200" height="250">
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+
+        <!--Card5,6-->
+        <div class="container my-4 text-white">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success-emphasis neon-shadow3">Design and Code</strong>
+                            <h3 class="mb-0">Integrative Coding and Design</h3>
+                            <div class="mb-1 text-body-secondary">2024</div>
+                            <p class="card-text mb-auto"> Learn how to seamlessly integrate coding and design to create
+                                innovative
+                                digital solutions.
+                            </p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="14.png" class="bd-placeholder-img" width="200" height="250">
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!--Card6-->
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success-emphasis neon-shadow3">Tech Design Trends</strong>
+                            <h3 class="mb-0">Designing with Code
+                            </h3>
+                            <div class="mb-1 text-body-secondary">2024</div>
+                            <p class="mb-auto">Discover the latest trends in tech design and how to leverage coding
+                                skills to create
+                                cutting-edge designs.
+                            </p>
+                            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link ">
+                                Continue reading
+                                <svg class="bi">
+                                    <use xlink:href="#chevron-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="15.png" class="bd-placeholder-img" width="200" height="250">
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
     </body>
 
-    </html>
+</html>
 
 
 </body>
